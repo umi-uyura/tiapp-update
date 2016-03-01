@@ -1,0 +1,27 @@
+{
+  "name": "tiapp-update",
+  "version": "0.0.1",
+  "description": "Tool for updating tiapp.xml",
+  "preferGlobal": true,
+  "main": "bin/tiapp-update",
+  "bin": {
+    "tiapp-update": "bin/tiapp-update",
+    "tiapp": "bin/tiapp-update"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "appcelerator",
+    "titanium",
+    "tiapp.xml"
+  ],
+  "author": "Umi Uyura <umiuyura@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "guid": "0.0.12",
+    "tiapp.xml": "^0.2.2"
+  }
+}
