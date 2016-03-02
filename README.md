@@ -87,3 +87,18 @@ Change app version:
 ```
 $ tiapp-update app version 1.0.0    # <version>1.0.0</version>
 ```
+
+
+### App initialize
+
+Set the recommended settings of tiapp.xml.
+
+```
+$ tiapp-update app init
+```
+
+Detail:
+
+| Tag | Value |
+|---|---|
+| `<analytics>` | `false` |
