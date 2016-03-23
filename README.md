@@ -102,3 +102,14 @@ Detail:
 | Tag | Value |
 |---|---|
 | `<analytics>` | `false` |
+
+
+### Appc
+
+Remove configuration related to appc.
+
+```
+$ tiapp appc remove             # Remove `appc-*` and `acs-*` properties
+Remove property 'appc-app-id', value = xxxxxxxxxxxxxxxxxxxxxxxx
+Remove configuration related to appc.
+```
